@@ -1,0 +1,20 @@
+# 6.14 Arbitrary Argument Lists
+
+- Sometimes a programmer doesn't know how many arguments a function requires
+- A function definition can include a ***args** parameter that collects optional positional parameters into an **arbitrary argument list** tuple.
+
+![6%2014%20Arbitrary%20Argument%20Lists%205b84cb0b8abb45cf944349278e730dc6/Untitled.png](6%2014%20Arbitrary%20Argument%20Lists%205b84cb0b8abb45cf944349278e730dc6/Untitled.png)
+
+- Adding a final function parameter of ****kwargs** creates a dictionary containing "extra" arguments not defined in the function definition
+    - **kwargs** is short for keyword arguments.
+
+![6%2014%20Arbitrary%20Argument%20Lists%205b84cb0b8abb45cf944349278e730dc6/Untitled%201.png](6%2014%20Arbitrary%20Argument%20Lists%205b84cb0b8abb45cf944349278e730dc6/Untitled%201.png)
+
+## *args and **kwargs rules:
+
+- The * and ** characters in *args and **kwargs are the important symbols.
+    - Using "args" and "kwargs" is standard practice, but any valid identifier is acceptable (like perhaps using *condiments in the sandwich example).
+- One or both of *args or **kwargs can be used.
+- They must come last (and in that order if both are used) in the parameter list, otherwise an error occurs.
+
+![6%2014%20Arbitrary%20Argument%20Lists%205b84cb0b8abb45cf944349278e730dc6/Untitled%202.png](6%2014%20Arbitrary%20Argument%20Lists%205b84cb0b8abb45cf944349278e730dc6/Untitled%202.png)

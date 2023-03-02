@@ -1,0 +1,44 @@
+# 6.13 Keyword arguments and default parameter values
+
+### Keyword arguments
+
+![In the example above, a programmer might very easily swap the positions of some of the arguments in the function call, potentially introducing a bug into the program.](6%2013%20Keyword%20arguments%20and%20default%20parameter%20value%205f2c6fa0eef5431a98e67d406b9845b7/Untitled.png)
+
+In the example above, a programmer might very easily swap the positions of some of the arguments in the function call, potentially introducing a bug into the program.
+
+- Python provides for keyword arguments that allow arguments to map to parameters by name, instead of implicitly by position in the argument list.
+- When using keyword arguments, the argument list does not need to follow a specific ordering.
+
+![6%2013%20Keyword%20arguments%20and%20default%20parameter%20value%205f2c6fa0eef5431a98e67d406b9845b7/Untitled%201.png](6%2013%20Keyword%20arguments%20and%20default%20parameter%20value%205f2c6fa0eef5431a98e67d406b9845b7/Untitled%201.png)
+
+- **Good practice** is to use keyword arguments for any function containing more than approximately 4 arguments.
+
+![A **common error** is to place keyword arguments before all position arguments, which generates an exception.](6%2013%20Keyword%20arguments%20and%20default%20parameter%20value%205f2c6fa0eef5431a98e67d406b9845b7/Untitled%202.png)
+
+A **common error** is to place keyword arguments before all position arguments, which generates an exception.
+
+### Default parameter values
+
+- Sometimes a function has parameters that are optional.
+- A function can have a **default parameter value** for one or more parameters, meaning that a function call can optionally omit an argument, and the default parameter value will be substituted for the corresponding omitted argument.
+- **EXAMPLE:** The fourth parameter indicates the desired style, with 0 meaning American style, and 1 meaning European style. For July 30, 2012, the American style is 7/30/2012 and the European style is 30/7/2012.
+
+![The fourth (and last) parameter is defined with a default value: style=0. If the function call does not provide a fourth argument, then style has value 0. A parameter's default value is the value used in the absence of an argument in the function call.](6%2013%20Keyword%20arguments%20and%20default%20parameter%20value%205f2c6fa0eef5431a98e67d406b9845b7/Untitled%203.png)
+
+The fourth (and last) parameter is defined with a default value: style=0. If the function call does not provide a fourth argument, then style has value 0. A parameter's default value is the value used in the absence of an argument in the function call.
+
+- If a parameter does not have a default value, then failing to provide an argument (either keyword or positional) generates an error.
+- A **common error** is to provide a mutable object, like a list, as a default parameter
+- Such a definition can be problematic because the default argument object is created only once, at the time the function is defined (when the script is loaded), and not every time the function is called
+- **EXAMPLE:** The below program demonstrates the problem with mutable default objects and illustrates a solution that creates a new empty list each time the function is called:
+
+![The left program shows a function append_to_list() that has an empty list as default value of my_list.](6%2013%20Keyword%20arguments%20and%20default%20parameter%20value%205f2c6fa0eef5431a98e67d406b9845b7/Untitled%204.png)
+
+The left program shows a function append_to_list() that has an empty list as default value of my_list.
+
+### Mixing keyword arguments and default parameter values
+
+- Mixing keyword arguments and default parameter values allows a programmer to omit arbitrary arguments from a function call.
+- Because keyword arguments use names instead of position to match arguments to parameters, any argument can be omitted as long as that argument has a default value.
+
+![6%2013%20Keyword%20arguments%20and%20default%20parameter%20value%205f2c6fa0eef5431a98e67d406b9845b7/Untitled%205.png](6%2013%20Keyword%20arguments%20and%20default%20parameter%20value%205f2c6fa0eef5431a98e67d406b9845b7/Untitled%205.png)

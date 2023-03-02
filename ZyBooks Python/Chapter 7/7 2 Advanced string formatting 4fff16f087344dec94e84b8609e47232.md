@@ -1,0 +1,46 @@
+# 7.2 Advanced string formatting
+
+### Field width
+
+Ex:
+
+![7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled.png](7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled.png)
+
+- A format specification may include a **field width** that defines the minimum number of characters that must be inserted into the string.
+- If the replacement value is smaller in size than the given field width, then the string's left side is padded with space characters.
+- A field width is defined in a format specification by including an integer after the colon, as in **{name:16}** to specify a width of 16 characters.
+- **Numbers will be right-aligned within the width by default, whereas most other types like strings will be left-aligned.**
+
+![7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%201.png](7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%201.png)
+
+### Aligning text
+
+- A format specification can include an **alignment character** that determines how a value should be aligned within the width of the field.
+- Alignment is set in a format specification by adding a special character **before** the field width integer
+- The basic set of possible alignment options include left-aligned '<', right-aligned '>' and centered '^'.
+
+![7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%202.png](7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%202.png)
+
+### Fill
+
+- The fill character is used to pad a replacement field when the string being inserted is smaller than the field width.
+- The default fill character is an empty space ' '
+- A programmer may define a different fill character in a format specification by placing the different fill character before the alignment character.
+    - Ex: {score:0>4} generates "0009" if score is 9 or "0250" if score is 250
+
+![7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%203.png](7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%203.png)
+
+![7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%204.png](7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%204.png)
+
+### Floating-point precision
+
+- '{:.1f}'.format(1.725) indicates a precision of 1, thus the resulting string would be '1.7'.
+
+![7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%205.png](7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%205.png)
+
+![7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%206.png](7%202%20Advanced%20string%20formatting%204fff16f087344dec94e84b8609e47232/Untitled%206.png)
+
+# Zach’s Note
+
+- [A nice right up on effectively doing width formatting with integers and strings](https://www.pylenin.com/blogs/python-width-precision/)
+- [https://stackoverflow.com/questions/16110230/formatting-text-in-a-table-in-python](https://stackoverflow.com/questions/16110230/formatting-text-in-a-table-in-python)

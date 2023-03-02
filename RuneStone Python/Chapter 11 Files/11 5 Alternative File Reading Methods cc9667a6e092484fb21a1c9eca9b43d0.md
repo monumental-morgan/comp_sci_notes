@@ -1,0 +1,94 @@
+# 11.5 Alternative File Reading Methods
+
+# 11.5 Alternative File Reading Methods
+
+- In addition to the `for` loop, Python provides three methods to read data from the input file.
+- The `readline` method reads one line from the file and returns it as a string.
+    - The string returned by `readline` will contain the newline character at the end
+    - This method returns the empty string when it reaches the end of the file.
+    - `readlines` method returns the contents of the entire file as a list of strings
+        - each item in the list represents one line of the file
+- It is also possible to read the entire file into a single string with `read`
+- **Note that we need to reopen the file before each read so that we start from the beginning**
+- Each file has a marker that denotes the current read position in the file
+    - Any time one of the read methods is called the marker is moved to the character immediately following the last character returned
+    - `readline` this moves the marker to the first character of the next line in the file
+    - `read` or `readlines` the marker is moved to the end of the file.
+
+```python
+>>> infile = open("ccdata.txt", "r")
+>>> aline = infile.readline()
+>>> aline
+'1850\-0.37\2.24E-7\n'
+>>>
+>>> infile = open("ccdata.txt", "r")
+>>> linelist = infile.readlines()
+>>> print(len(linelist))
+18
+>>> print(linelist[0:4])
+['1850\-0.37\2.24E-7\n', 
+'1860\-0.34\3.94E-7\n', 
+'1870\-0.28\6.6E-7\n', 
+'1880\-0.24\1.1\n']
+>>>
+>>> infile = open("ccdata.txt", "r")
+>>> filestring = infile.read()
+>>> print(len(filestring))
+1282
+>>> print(filestring[:256])
+1850 -0.37 2.24E-7
+1860 -0.34 3.94E-7
+1870 -0.28 6.6E-7
+1880 -0.24
+>>>
+```
+
+![https://remnote-user-data.s3.amazonaws.com/-mV6Q7yDz0dDv6EMadnDZLtmkhvHCMsltEIFq6NUDs7GtNkpuQ5madT0ch9KOIvj7qd5PL6cgruHWNsE6mrMk-gHgAVVgsQhKbPHVBFbsA41Cpl4RUR-eFBhb3ixNmeR.png](https://remnote-user-data.s3.amazonaws.com/-mV6Q7yDz0dDv6EMadnDZLtmkhvHCMsltEIFq6NUDs7GtNkpuQ5madT0ch9KOIvj7qd5PL6cgruHWNsE6mrMk-gHgAVVgsQhKbPHVBFbsA41Cpl4RUR-eFBhb3ixNmeR.png)
+
+## Reading file with while loop
+
+- This is important because many other programming languages do not support the `for` loop style for reading files but they do support the pattern we’ll show you here.
+
+```python
+infile = open("ccdata.txt", "r")
+line = infile.readline()
+while line:
+    values = line.split()
+    print('In', values[0], 'the average temp. was', values[1], '°C and CO2 emmisions were', values[2], 'gigatons.')
+    line = infile.readline()
+
+infile.close()
+```
+
+```
+In 1850 the average temp. was -0.37 °C and CO2 emmisions were 2.24E-7 gigatons.
+In 1860 the average temp. was -0.34 °C and CO2 emmisions were 3.94E-7 gigatons.
+In 1870 the average temp. was -0.28 °C and CO2 emmisions were 6.6E-7 gigatons.
+In 1880 the average temp. was -0.24 °C and CO2 emmisions were 1.1 gigatons.
+In 1890 the average temp. was -0.42 °C and CO2 emmisions were 1.72 gigatons.
+In 1900 the average temp. was -0.2 °C and CO2 emmisions were 2.38 gigatons.
+In 1910 the average temp. was -0.49 °C and CO2 emmisions were 3.34 gigatons.
+In 1920 the average temp. was -0.25 °C and CO2 emmisions were 4.01 gigatons.
+In 1930 the average temp. was -0.14 °C and CO2 emmisions were 4.53 gigatons.
+In 1940 the average temp. was 0.01 °C and CO2 emmisions were 5.5 gigatons.
+In 1950 the average temp. was -0.17 °C and CO2 emmisions were 6.63 gigatons.
+In 1960 the average temp. was -0.05 °C and CO2 emmisions were 10.5 gigatons.
+In 1970 the average temp. was -0.03 °C and CO2 emmisions were 16 gigatons.
+In 1980 the average temp. was 0.09 °C and CO2 emmisions were 20.3 gigatons.
+In 1990 the average temp. was 0.3 °C and CO2 emmisions were 22.6 gigatons.
+In 2000 the average temp. was 0.29 °C and CO2 emmisions were 24.9 gigatons.
+In 2010 the average temp. was 0.56 °C and CO2 emmisions were 32.7 gigatons.
+In 2019 the average temp. was 0.74 °C and CO2 emmisions were 33.3 gigatons.
+```
+
+- There are several important things to notice in this code:
+    - On line 2 we have the statement `line = infile.readline()`
+        - We call this initial read the **priming read**.
+        - It is very important because the while condition needs to have a value for the `line` variable.
+    - `readline` method will return the empty string if there is no more data in the file.
+        - When Python is looking for a Boolean condition, as in `while line:`, it treats an empty sequence type as `False`, and a non-empty sequence as `True`
+        - So, the only way that a line of data from the file can be empty is if you are reading at the end of the file, and the `while` condition becomes `False`.
+    - Notice that the last line of the body of the `while` loop performs another `readline`
+        - This statement will reassign the variable `line` to the next line of the file
+        - It represents the change of state that is necessary for the iteration to function correctly.
+        - Without it, there would be an infinite loop processing the same line of data over and over.

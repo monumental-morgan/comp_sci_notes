@@ -1,0 +1,14 @@
+# 6.3 Dynamic Typing
+
+### Dynamic and static typing
+
+- A programmer can pass any type of object as an argument to a function.
+- Example add() function can be used for int and strings
+
+![6%203%20Dynamic%20Typing%20d2f5b83756644b5a878bb55a5dab51f9/Untitled.png](6%203%20Dynamic%20Typing%20d2f5b83756644b5a878bb55a5dab51f9/Untitled.png)
+
+- The function's behavior of being able to add together different types is a concept called **polymorphism**.
+- **Python** uses **dynamic typing** to determine the type of objects as a program executes
+- In contrast to dynamic typing, many other languages like **C, C++,** and **Java** use **static typing**, which requires the programmer to define the type of every variable and every function parameter in a program's source code
+- Dynamic typing typically allows for more flexibility in terms of the code that a programmer can write, but at the expense of potentially introducing more bugs, since there is no compilation process by which types can be checked.
+-

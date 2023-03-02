@@ -1,0 +1,74 @@
+# 7.4/5/6/7 Conditional Execution: Binary Selection
+
+- In order to write useful programs, we almost always need the ability to check conditions and change the behavior of the program accordingly.
+
+# **Selection Statements (Conditional Statements)**
+
+## `if` statement
+
+Structure of an `if` statement
+
+```python
+if BOOLEAN EXPRESSION:
+    STATEMENTS_1        # executed if condition evaluates to True
+else:
+    STATEMENTS_2        # executed if condition evaluates to False
+```
+
+Example
+
+```python
+x = 15
+
+if x % 2 == 0:
+    print(x, "is even")
+else:
+    print(x, "is odd")
+```
+
+### Unary Selection
+
+- The `else`clause is omitted entirely
+- When the condition evaluates to `True`, the statements are executed.
+- Otherwise the flow of execution continues to the statement after the body of the `if`
+- Example:
+
+```python
+x = 10
+if x < 0:
+    print("The negative number ",  x, " is not valid here.")
+print("This is always printed")
+```
+
+# 7.6 Nested Conditionals
+
+- One conditional can be nested within another.
+
+```python
+if x < y:
+    print("x is less than y")
+else:
+    if x > y:
+        print("x is greater than y")
+    else:
+        print("x and y must be equal")
+```
+
+# 7.7 Chained Conditionals
+
+```python
+if x < y:
+    print("x is less than y")
+elif x > y:
+    print("x is greater than y")
+else:
+    print("x and y must be equal")
+```
+
+- Exactly one branch will be executed.
+- `elif`is an abbreviation of `else if`
+- There is no limit of the number of `elif`statements
+- only a single (and optional) final `else`statement is allowed and it must be the last branch in the statement.
+- Each condition is checked in order
+- If the first is false, the next is checked, and so on, until one is true, branch executes, then conditional is over.
+-

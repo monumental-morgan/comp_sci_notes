@@ -1,0 +1,55 @@
+# 11.3/4 Reading a File & Iterating over lines in a file
+
+# 11.3 Reading a File
+
+- To open this file, we would call the `open` function
+- The variable, `fileref` , now holds a reference to the file object returned by `open`
+- When we are finished with the file, we can close it by using the `close` method.
+    - After the file is closed any further attempts to use `fileref` will result in an error.
+
+```python
+>>>fileref = open("ccdata.txt", "r")
+>>>
+>>>fileref.close()
+>>>
+```
+
+# 11.4 Iterating over lines in a file
+
+- Example file:
+
+![https://remnote-user-data.s3.amazonaws.com/7uSbvgHn0fxqOVHSn17q4pD3Iau8H8zWPL8CbiQOfI4x5suGXH-uofNQwB4KFve7L-GSoeuVeec8q9RqnXnay-M-Pfh9v6SpukcQNBYr-Xn3cxowysBe-KZxm1gEpgCO.png](https://remnote-user-data.s3.amazonaws.com/7uSbvgHn0fxqOVHSn17q4pD3Iau8H8zWPL8CbiQOfI4x5suGXH-uofNQwB4KFve7L-GSoeuVeec8q9RqnXnay-M-Pfh9v6SpukcQNBYr-Xn3cxowysBe-KZxm1gEpgCO.png)
+
+- Example code for file
+
+```python
+ccfile = open("ccdata.txt", "r")
+
+for aline in ccfile:
+    values = aline.split()
+    print('In', values[0], 'the average temp. was', values[1], '°C and CO2 emmisions were', values[2], 'gigatons.')
+
+ccfile.close()
+```
+
+```
+Output
+In 1850 the average temp. was -0.37 °C and CO2 emmisions were 2.24E-7 gigatons.
+In 1860 the average temp. was -0.34 °C and CO2 emmisions were 3.94E-7 gigatons.
+In 1870 the average temp. was -0.28 °C and CO2 emmisions were 6.6E-7 gigatons.
+In 1880 the average temp. was -0.24 °C and CO2 emmisions were 1.1 gigatons.
+In 1890 the average temp. was -0.42 °C and CO2 emmisions were 1.72 gigatons.
+In 1900 the average temp. was -0.2 °C and CO2 emmisions were 2.38 gigatons.
+In 1910 the average temp. was -0.49 °C and CO2 emmisions were 3.34 gigatons.
+In 1920 the average temp. was -0.25 °C and CO2 emmisions were 4.01 gigatons.
+In 1930 the average temp. was -0.14 °C and CO2 emmisions were 4.53 gigatons.
+In 1940 the average temp. was 0.01 °C and CO2 emmisions were 5.5 gigatons.
+In 1950 the average temp. was -0.17 °C and CO2 emmisions were 6.63 gigatons.
+In 1960 the average temp. was -0.05 °C and CO2 emmisions were 10.5 gigatons.
+In 1970 the average temp. was -0.03 °C and CO2 emmisions were 16 gigatons.
+In 1980 the average temp. was 0.09 °C and CO2 emmisions were 20.3 gigatons.
+In 1990 the average temp. was 0.3 °C and CO2 emmisions were 22.6 gigatons.
+In 2000 the average temp. was 0.29 °C and CO2 emmisions were 24.9 gigatons.
+In 2010 the average temp. was 0.56 °C and CO2 emmisions were 32.7 gigatons.
+In 2019 the average temp. was 0.74 °C and CO2 emmisions were 33.3 gigatons.
+```

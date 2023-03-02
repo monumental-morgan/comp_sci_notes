@@ -1,0 +1,43 @@
+# 7.1 String Slicing
+
+### String slicing basics
+
+- Strings are a sequence type, having characters ordered by index from left to right
+- An **index** is an integer matching to a specific position in a string's sequence of characters
+- An individual character is read using an index surrounded by brackets
+    - Ex: my_str[5] reads the character at index 5 of the string my_str. Indices start at 0, so index 5 is a reference to the 6th character in the string.
+- Multiple consecutive characters can be read using **slice notation**.
+    - Slice notation has the form my_str[start:end]
+    - If my_str is 'Boggle', then my_str[0:3] yields string 'Bog'
+- Other sequence types like lists and tuples also support slice notation.
+
+![7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled.png](7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled.png)
+
+- The last character of the slice is one location ***before*** the specified end.
+- Negative numbers can be used to specify an index relative to the end of the string.
+    - Ex: If the variable my_str is 'Jane Doe!?', then my_str[0:-2] yields 'Jane Doe' because the -2 refers to the second-to-last character '!'
+
+### Slicing and slicing operations
+
+- The Python interpreter creates a new string object for the slice.
+- Thus, creating a slice of the string variable my_str, and then changing the value of my_str, does not also change the value of the slice.
+
+![7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled%201.png](7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled%201.png)
+
+- A programmer often wants to read all characters that occur before or after some index in the string
+- Omitting a start index, such as in my_str[:end] yields the characters from indices 0 to end-1
+    - Ex: my_str[:5] reads indices 0-4.
+- Similarly, omitting the end index yields the characters from the start index to the end of the string
+    - Ex: my_str[5:] yields all characters at and after index 5.
+
+![7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled%202.png](7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled%202.png)
+
+![7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled%203.png](7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled%203.png)
+
+### The slice stride
+
+- **The stride** determines how much to increment the index after reading each element
+    - For example, my_str[0:10:2] reads every other element between 0 and 10
+- The stride defaults to 1 if not specified.
+
+![7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled%204.png](7%201%20String%20Slicing%202b7a618ef2934f778602babfca7547dc/Untitled%204.png)

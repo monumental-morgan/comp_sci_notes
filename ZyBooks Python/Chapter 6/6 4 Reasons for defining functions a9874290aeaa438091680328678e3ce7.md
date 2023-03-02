@@ -1,0 +1,26 @@
+# 6.4 Reasons for defining functions
+
+### Improving program readability
+
+**NOT EASY TO UNDERSTAND**
+
+![6%204%20Reasons%20for%20defining%20functions%20a9874290aeaa438091680328678e3ce7/Untitled.png](6%204%20Reasons%20for%20defining%20functions%20a9874290aeaa438091680328678e3ce7/Untitled.png)
+
+**EASY TO UNDERSTAND**
+
+![6%204%20Reasons%20for%20defining%20functions%20a9874290aeaa438091680328678e3ce7/Untitled%201.png](6%204%20Reasons%20for%20defining%20functions%20a9874290aeaa438091680328678e3ce7/Untitled%201.png)
+
+### Modular Program Development
+
+- **Modular development** is the process of dividing a program into separate modules that can be developed and tested separately and then integrated into a single program.
+    - A programmer can use **function stubs** (described in depth elsewhere) to capture the high-level behavior of the required functions (or modules) before diving into details of each function, like planning a route for a road trip before starting to drive.
+
+### Avoid writing redundant code
+
+- A function can be defined once, then called from multiple places in a program, thus avoiding redundant code
+    - Examples of such functions are math module functions like sqrt() that make it to where square root doesn't need to be programmed each time
+- **The skill of decomposing a program's behavior into a good set of functions is a fundamental part of programming that helps characterize a good programmer.**
+- Each function should have easily-recognizable behavior, and the behavior of the main program should be easily understandable via the sequence of function calls.
+- **A general guideline (especially for beginner programmers) is that a function's definition usually shouldn't have more than about 30 lines of code, although this guideline is not a strict rule.**
+
+![6%204%20Reasons%20for%20defining%20functions%20a9874290aeaa438091680328678e3ce7/Untitled%202.png](6%204%20Reasons%20for%20defining%20functions%20a9874290aeaa438091680328678e3ce7/Untitled%202.png)

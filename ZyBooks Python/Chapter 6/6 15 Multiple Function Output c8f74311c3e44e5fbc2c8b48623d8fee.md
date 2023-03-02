@@ -1,0 +1,12 @@
+# 6.15 Multiple Function Output
+
+- Occasionally a function should produce multiple output values
+- However, function return statements are limited to returning only one value.
+- A workaround is to package the multiple outputs into a single container, commonly a tuple, and to then return that container.
+
+![6%2015%20Multiple%20Function%20Output%20c8f74311c3e44e5fbc2c8b48623d8fee/Untitled.png](6%2015%20Multiple%20Function%20Output%20c8f74311c3e44e5fbc2c8b48623d8fee/Untitled.png)
+
+- Recall that a tuple doesn't require parentheses around the contents, as the comma indicates a tuple should be created
+- The outputs could also have been returned in a list, as in return [mean, std_dev].
+- The statement average, standard_deviation = get_grade_stats(student_scores) utilizes **unpacking** to perform multiple assignments at once, so that average and standard_deviation are assigned the first and second elements from the returned tuple.
+-

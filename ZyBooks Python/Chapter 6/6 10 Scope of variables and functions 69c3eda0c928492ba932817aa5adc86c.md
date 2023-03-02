@@ -1,0 +1,23 @@
+# 6.10 Scope of variables and functions
+
+- A variable or function object is only visible to part of a program, known as the object's **scope**.
+- When a variable is created inside a function, the variable's scope is limited to *inside* that function.
+    - Because a variable's name does not exist until bound to an object, the variable's scope is actually limited to after the first assignment of the variable until the end of the function.
+
+![The function's variables total_inches and centimeters are invisible to the code outside of the function and cannot be used](6%2010%20Scope%20of%20variables%20and%20functions%2069c3eda0c928492ba932817aa5adc86c/Untitled.png)
+
+The function's variables total_inches and centimeters are invisible to the code outside of the function and cannot be used
+
+- Such variables defined inside a function are called **local variables.**
+
+### Global variables
+
+- In contrast, a variable defined outside of a function is called a **global variable.**
+- A global variable's scope extends from assignment to the end of the file and can be accessed inside of functions.
+- A **global statement** must be used to change the value of a global variable inside of a function.
+
+![6%2010%20Scope%20of%20variables%20and%20functions%2069c3eda0c928492ba932817aa5adc86c/Untitled%201.png](6%2010%20Scope%20of%20variables%20and%20functions%2069c3eda0c928492ba932817aa5adc86c/Untitled%201.png)
+
+- To be able to call a function, the interpreter must have already evaluated the function definition (thus binding the function name to a function object).
+
+![6%2010%20Scope%20of%20variables%20and%20functions%2069c3eda0c928492ba932817aa5adc86c/Untitled%202.png](6%2010%20Scope%20of%20variables%20and%20functions%2069c3eda0c928492ba932817aa5adc86c/Untitled%202.png)

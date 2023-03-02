@@ -1,0 +1,18 @@
+# 6.16 Help! Using Docstrings to documents functions
+
+### Docstrings
+
+- A large program can contain many functions with a wide variety of uses.
+- A programmer should document each function, giving a high-level description of the purpose of the function, so that later readers of the code can more easily understand.
+- A **docstring** is a string literal placed in the first line of a function body.
+- **A docstring starts and ends with three consecutive quotation marks.**
+- **Good practice** is to keep the docstring of a simple function as a single line, including the quotes. Furthermore, there should be no blank lines before or after the docstring.
+- Multi-line docstrings can be used for more complicated functions to describe the function arguments.
+- Multi-line docstrings should use consistent indentation for each line, separating the ending triple-quotes by a blank line.
+
+![6%2016%20Help!%20Using%20Docstrings%20to%20documents%20functions%2096c42499fe72484ab430715555eb8865/Untitled.png](6%2016%20Help!%20Using%20Docstrings%20to%20documents%20functions%2096c42499fe72484ab430715555eb8865/Untitled.png)
+
+### The help() function
+
+- The help() function can aid a programmer by providing them with all the documentation associated with an object
+- **A statement such as help(ticket_price) would print out the docstring for the ticket_price() function, providing the programmer with information about how to call that function.**

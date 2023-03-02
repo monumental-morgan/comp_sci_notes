@@ -1,0 +1,39 @@
+# 4.7. The range Function
+
+- When called with one parameter, the sequence provided by `range`always starts with 0
+- If you ask for `range(4)`, then you will get 4 values starting with 0
+    - 0, 1, 2, and finally 3
+    - 4 is not included since we started with 0
+
+```python
+for i in range(4):
+    # Executes the body with i = 0, then 1, then 2, then 3
+for x in range(10):
+    # sets x to each of ... [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
+
+```python
+for i in range(4):
+    alex.forward(50)
+    alex.left(90)
+```
+
+## Two parameter Range
+
+- The evaluation of `range(1,5)` produces the desired sequence of 1-4
+- we interpret the parameters of the range function to mean `range(start,beyondLast)`
+    - beyondLast means an index past the last index we want: 4+1
+
+## Three Parameter Ranges
+
+- Third parameter: step
+- Tells the range what to count by
+- So if we wanted the first 10 even numbers we would use `range(0,19,2)`
+- The most general form of the range is `range(start, beyondLast, step)`
+- You can also create a sequence of numbers that starts big and gets smaller by using a negative value for the step parameter.
+
+```python
+print(list(range(0, 19, 2)))
+print(list(range(0, 20, 2)))
+print(list(range(10, 0, -1)))
+```

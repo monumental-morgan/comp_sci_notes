@@ -1,0 +1,48 @@
+# 4.6. Iteration Simplifies our Turtle Program
+
+- To draw a square we’d like to do the same thing four times — move the turtle forward some distance and turn 90 degrees.
+
+```python
+import turtle            # set up alex
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+for i in [0, 1, 2, 3]:      # repeat four times
+    alex.forward(50)
+    alex.left(90)
+
+wn.exitonclick()
+```
+
+The values [0,1,2,3] were provided to make the loop body execute 4 times. We could have used any four values. For example, consider the following program.
+
+```python
+import turtle            # set up alex
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+for aColor in ["yellow", "red", "purple", "blue"]:      # repeat four times
+    alex.forward(50)
+    alex.left(90)
+
+wn.exitonclick()
+```
+
+- Since there are four items in the list, the iteration will still occur four times.  `aColor`will take on each color in the list.
+- We can even take this one step further and use the value of `aColor`as part of the computation
+
+```python
+import turtle            # set up alex
+wn = turtle.Screen()
+alex = turtle.Turtle()
+
+for aColor in ["yellow", "red", "purple", "blue"]:
+   alex.color(aColor)
+   alex.forward(50)
+   alex.left(90)
+
+wn.exitonclick()
+```
+
+- In this case, the value of `aColor`is used to change the color attribute of `alex`
+    - Each iteration causes `aColor`to change to the next value in the list.

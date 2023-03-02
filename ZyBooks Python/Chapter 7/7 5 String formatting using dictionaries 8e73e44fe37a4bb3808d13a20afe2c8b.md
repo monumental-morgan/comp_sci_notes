@@ -1,0 +1,13 @@
+# 7.5 String formatting using dictionaries
+
+### Mapping keys
+
+- Sometimes a string contains many conversion specifiers. Such strings can be hard to read and understand.
+- Furthermore, the programmer must be careful with the ordering of the tuple values, lest items are mistakenly swapped.
+- A dictionary may be used instead
+- If a dictionary is used, then all conversion specifiers must include a **mapping key** component.
+    - A mapping key is specified by indicating the key of the relevant value in the dictionary within parentheses.
+
+![7%205%20String%20formatting%20using%20dictionaries%208e73e44fe37a4bb3808d13a20afe2c8b/Untitled.png](7%205%20String%20formatting%20using%20dictionaries%208e73e44fe37a4bb3808d13a20afe2c8b/Untitled.png)
+
+![7%205%20String%20formatting%20using%20dictionaries%208e73e44fe37a4bb3808d13a20afe2c8b/Untitled%201.png](7%205%20String%20formatting%20using%20dictionaries%208e73e44fe37a4bb3808d13a20afe2c8b/Untitled%201.png)

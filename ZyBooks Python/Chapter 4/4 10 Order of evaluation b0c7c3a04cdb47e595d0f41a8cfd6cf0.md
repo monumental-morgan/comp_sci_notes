@@ -1,0 +1,13 @@
+# 4.10 Order of evaluation
+
+### Precedence rules
+
+![4%2010%20Order%20of%20evaluation%20b0c7c3a04cdb47e595d0f41a8cfd6cf0/Untitled.png](4%2010%20Order%20of%20evaluation%20b0c7c3a04cdb47e595d0f41a8cfd6cf0/Untitled.png)
+
+### Common Error: Missing parentheses
+
+- Good practice is to use parentheses in expressions to make the intended order of evaluation explicit.
+- Examples:
+    - not a == b intending to mean (not a) == b, but in fact the interpreter computes not (a == b)
+    - w and x == y and z intending (w and x) == (y and z), but the interpreter computes (w and (x == y)) and z
+    - not x + y < 5 intending (not x) + y < 5, but the interpreter computes not ((x + y) < 5)

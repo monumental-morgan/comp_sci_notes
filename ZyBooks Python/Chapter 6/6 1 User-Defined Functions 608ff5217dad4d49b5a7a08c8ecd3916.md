@@ -1,0 +1,55 @@
+# 6.1 User-Defined Functions
+
+### Functions (General)
+
+- A program may perform the same operation repeatedly, causing a large and confusing program due to redundancy.
+    - Program redundancy can be reduced by creating a grouping of predefined statements for repeatedly used operations, known as a **function**.
+    - Even without redundancy, functions can prevent a main program from becoming large and confusing.
+
+### Function basics
+
+- A function is a named series of statements.
+- A **function definition** consists of the new function's name and a block of statements. Ex: def calc_pizza_area():  An indented block of statements follows the definition.
+- A **function call** is an invocation of the function's name, causing the function's statements to execute.
+    - Python comes with a number of built-in functions, such as input(), int(), len(), etc. ***The def keyword is used to create new functions.***
+- **Good practice** is to follow the convention of naming functions with lowercase letters and underscores, such as get_name or calc_area.
+- The function call calc_pizza_area() in the animation below causes execution to jump to the function's statements. Execution returns to the original location after executing the function's last statement.
+
+![6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled.png](6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled.png)
+
+### Return Statements
+
+![6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%201.png](6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%201.png)
+
+- A function can only return one item, not two or more (though a list or a tuple with multiple elements could be returned)
+- A function with no return statement, or a return statement with no following expression, returns the value *None*.
+    - **None** is a special keyword that indicates no value.
+    - A function may also contain multiple return statements in different locations.
+
+### Parameters
+
+- A **parameter** is a function input specified in a function definition. Ex: A pizza area function might have diameter as an input.
+- An **argument** is a value provided to a function's parameter during a function call. Ex: A pizza area function might be called as calc_pizza_area(12.0) or as calc_pizza_area(16.0)
+    - A parameter is like a variable definition.
+    - A parameter cannot be an expression:
+        - **NOT THIS**: def **my_fct(userNum + 5):**
+
+![6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%202.png](6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%202.png)
+
+### Multiple or no parameters
+
+- A function may have multiple parameters, which are separated by commas.
+- A function definition with no parameters must still have the parentheses, as in: def calc_something():
+    - The call to such a function must include parentheses, and they must be empty, as in: calc_something()
+
+![6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%203.png](6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%203.png)
+
+![6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%204.png](6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%204.png)
+
+![6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%205.png](6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%205.png)
+
+### Hierarchical function calls
+
+- A function's statements may include function calls, known as **hierarchical function calls** or **nested function calls**.
+
+![6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%206.png](6%201%20User-Defined%20Functions%20608ff5217dad4d49b5a7a08c8ecd3916/Untitled%206.png)
