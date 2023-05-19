@@ -1,3 +1,4 @@
+# The Bash Wiki
 ## Executing Bash in Fish
 
 If fish is your default shell and you want to copy commands from the internet that are written in a different shell language, bash for example, you can proceed in the following way:

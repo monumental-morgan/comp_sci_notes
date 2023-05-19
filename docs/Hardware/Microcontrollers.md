@@ -3,7 +3,7 @@
 - ESP32 (I believe wifi?) and arduino are two types with lots of support
 - Micro python is a language to program mirocontrollers like the Pico and ESP32
     - Easier than C++
-- ESP32
+- [[ESP32]]
     - ESP32 developed by Espressif Systems
         - Used in Internet of Things (IOT)
         - Wifi and bluetooth support

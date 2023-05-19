@@ -1,4 +1,4 @@
-# Web Development
+# The Web Dev Wiki
 ## The Odin Project
 ### Foundations
 - [[1.1 Command Line Basics]]

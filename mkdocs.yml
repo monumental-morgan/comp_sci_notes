@@ -6,8 +6,8 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: blue
-    accent: light blue
+    primary: deep purple
+    accent: purple
   features:
     - navigation.footer
     - navigation.tabs
