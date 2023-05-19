@@ -1,4 +1,4 @@
-# Chapter 2
+# Chapter 2: Some Basics
 
 - Triple quoted strings can span multiple lines
     - `print("""This message will span

@@ -1,4 +1,4 @@
-# 8.2/3 The for & while Loop Revisited
+# Chapter 8: For & While Loops Revisited
 
 - Recall that the `for`loop processes each item in a list
     - Each item in turn is (re-)assigned to the loop variable, and the body of the loop is executed
