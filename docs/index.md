@@ -2,6 +2,6 @@
 
 - [[Learning Bash]]
 - [[Awesome Resources]]
-- [[Cyber Notes]]
+- [[Cybersecurity]]
 - [[Command Line Tricks]]
 - [[Python]]

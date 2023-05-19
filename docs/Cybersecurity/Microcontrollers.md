@@ -1,0 +1,18 @@
+# Microcontrollers
+- Microcontroller: Small computer that can be programmed to preform specific tasks
+- ESP32 (I believe wifi?) and arduino are two types with lots of support
+- Micro python is a language to program mirocontrollers like the Pico and ESP32
+    - Easier than C++
+- ESP32
+    - ESP32 developed by Espressif Systems
+        - Used in Internet of Things (IOT)
+        - Wifi and bluetooth support
+        - You can also deploy a small webserver on the board to use the tcp/ip networking protocol
+- Arduino
+    - Arduino is an open-source platform that consists of hardware (microcontrollers) & software (the Arduino Integrated Development Environment (IDE))
+        - Has a large selection of pre-designed circuits, called "shields"
+            - Can be added on to the microcontroller to give it new capabilities
+        - Good for prototyping UGV's (Unmanned Ground Vehicles)
+- Raspberry Pi Pico
+    - Smaller & more affordable microcontroller
+    - Programmed in C++
