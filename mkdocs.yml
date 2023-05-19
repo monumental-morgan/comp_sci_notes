@@ -1,0 +1,36 @@
+site_name: Momumental Morgan's Wiki
+#site_url: monumental-morgan.github.io/comp
+site_dir: public
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.footer
+    - navigation.tabs
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+
+  - footnotes
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.tasklist
+  - pymdownx.emoji
+  - admonition
+
+plugins:
+  - search
+  - roamlinks
