@@ -20,6 +20,6 @@ print(a_list[:])
 - `b = a[:]   # make a clone using slice`
 - List Methods
 
-![https://remnote-user-data.s3.amazonaws.com/U8K50HZWts3DqWBR9xDYCJh11zCfOuVvjywC4B8sFOd6TOOY4vMtiJ7SuzLI8ib4MZoGYTlcQ4_Q84IyXKwP4z92l2Auay1xFi6RKacYf9zaxQxwf-1SE0f849LjeJUK.png](https://remnote-user-data.s3.amazonaws.com/U8K50HZWts3DqWBR9xDYCJh11zCfOuVvjywC4B8sFOd6TOOY4vMtiJ7SuzLI8ib4MZoGYTlcQ4_Q84IyXKwP4z92l2Auay1xFi6RKacYf9zaxQxwf-1SE0f849LjeJUK.png)
+![[Pasted image 20230519154733.png]]
 
 - It is also important to realize that with append, the original list is simply modified. On the other hand, with concatenation, an entirely new list is created.

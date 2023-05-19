@@ -2,7 +2,7 @@
 
 ## [Official Documentation](https://docs.python.org/3.8/library/re.html#)
 
-![Untitled](Attachments/Regular%20Expressions%20cf7e33f7d3354c26b2764428e1484c72/Untitled.png)
+![Untitled](regular-expressions.png)
 
 ### **[Remove Numbers from String](https://www.studytonight.com/python-howtos/remove-numbers-from-string-in-python)**
 

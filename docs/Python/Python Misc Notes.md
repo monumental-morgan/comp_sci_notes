@@ -1,6 +1,6 @@
 # Python Misc Notes
 
-[Quick Note](https://www.notion.so/Quick-Note-13a48712ca784c2cbfec49c159f15c4d) 
+[[7.1 Boolean Values and Boolean Expressions#Quick Note]]
 
 ### Boolean
 
@@ -9,6 +9,6 @@
 - NOT CORRECT:
     - `number == 5 or 6 or 7`
 
-[[7.2 Logical Operators]]
+
 
 [[Regular Expressions]]
