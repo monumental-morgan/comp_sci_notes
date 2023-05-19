@@ -1,6 +1,6 @@
 # Chapter 17: Classes and Objects
 
-[17.4 User Defined Classes](Chapter%2017%20Classes%20and%20Objects%20fb1cb90917cb4764bc8530166090d99e/17%204%20User%20Defined%20Classes%2065bfaccf034d41e09678eb07d26bc783.md)
+- [[17.4 User Defined Classes]]
 
 # 17.1 Object-oriented programming (OOP)
 
