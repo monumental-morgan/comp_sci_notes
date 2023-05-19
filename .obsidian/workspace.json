@@ -13,13 +13,74 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ZyBooks Python/Chapter 2/2 10 Representing Text.md",
+                "file": "Quick Notes Python.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5823be199d447160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python Style Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ec08039416a8f9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Command Line Tricks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "db95cc4025d93ac7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Repo Naming Conventions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c64a8f016476d8f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Learning Bash/Learning Bash.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e645556af1b53168",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Awesome Resources.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -64,6 +125,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "be89dd4fab59f8d9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ZyBooks Python/Chapter 2/2 10 Representing Text.md",
+                "file": "Awesome Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ZyBooks Python/Chapter 2/2 10 Representing Text.md",
+                "file": "Awesome Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ZyBooks Python/Chapter 2/2 10 Representing Text.md"
+                "file": "Awesome Resources.md"
               }
             }
           }
@@ -147,27 +216,37 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e128762f77495a21",
+  "active": "e645556af1b53168",
   "lastOpenFiles": [
-    "ZyBooks Python/Chapter 2/2 8 9 Module Basics.md",
-    "ZyBooks Python/Chapter 2/2 5 6 7 Expressions.md",
-    "ZyBooks Python/Chapter 2/2 4 Numeric Types Floating-Point.md",
-    "ZyBooks Python/Chapter 2/2 3 Objects.md",
-    "ZyBooks Python/Chapter 2/2 2 Identifiers.md",
-    "Cyber Notes.md",
-    "FromSergio Mastering Obsidian.md",
-    "Regular Expressions.md",
+    "Learning Bash/Learning Bash.md",
+    "Awesome Resources.md",
+    "Learning Bash/Scripting.md",
+    "Learning Bash/Permissions.md",
+    "Learning Bash/Vi Text Editor.md",
+    "Learning Bash/File Manipulation.md",
+    "Learning Bash",
+    "Repo Naming Conventions.md",
+    "Command Line Tricks.md",
+    "Python Style Guide.md",
     "Quick Notes Python.md",
-    "RuneStone Python/Chapter 6 Functions/6 2 3 Function Return Values & Unit Testing.md",
-    "RuneStone Python/Chapter 5 Python Modules/Chapter 5 Python Modules e0de45ab5f37403d9cb8f3b6b0d26267.md",
-    "RuneStone Python/8 2 3 The for & while Loop Revisited a3a6a9c2dd4a4210b06814730ade7b5c.md",
-    "RuneStone Python/Chapter 4 Turtle Graphics/4 8 A Few More turtle Methods and Observations dc5c629f63564495a75bbe2ffe34ee7a.md",
-    "RuneStone Python/Chapter 4 Turtle Graphics/4 6 Iteration Simplifies our Turtle Program 58bde1af73e446218e437db86205cd65.md",
-    "RuneStone Python/Chapter 4 Turtle Graphics/4 7 The range Function a93bde7e41e7423da78329fb322a9a39.md",
-    "ZyBooks Python/Chapter 7/7 1 String Slicing 2b7a618ef2934f778602babfca7547dc.md",
-    "ZyBooks Python/Chapter 7/7 2 Advanced string formatting 4fff16f087344dec94e84b8609e47232.md",
-    "ZyBooks Python/Chapter 6/6 3 Dynamic Typing d2f5b83756644b5a878bb55a5dab51f9.md",
-    "ZyBooks Python/Chapter 5/5 5 For Loops 117b28b3dd3944a48f42c1be7daa3a95.md",
+    "The Odin Project/1.1 Command Line Basics.md",
+    "The Odin Project/2.2 HTML Boilerplate.md",
+    "2.6 Git Commit Messages.md",
+    "The Odin Project/Foundations.md",
+    "The Odin Project/2.5 Links & Images.md",
+    "The Odin Project/2.4 Lists.md",
+    "The Odin Project/2.3 HTML - Working With Text.md",
+    "The Odin Project/The Odin Project.md",
+    "The Odin Project/Git Practices.md",
+    "The Odin Project/Cheatsheets.md",
+    "Git.md",
+    "RuneStone Python/Chapter 4 Turtle Graphics/4.8 A Few More turtle Methods and Observations.md",
+    "Web Development/Untitled",
+    "The Odin Project",
+    "RuneStone Python/Chapter 4 Turtle Graphics/4.7 The range Function.md",
+    "RuneStone Python/Chapter 4 Turtle Graphics/4.4 4.5 for Loops.md",
+    "ZyBooks Python/Chapter 4/4.2 Detecting equal values with branches.md",
+    "ZyBooks Python/Chapter 3/3.8 Type Conversions.md",
     "Attachments/9 4 Index Operator Working with the Characters of  704131a9a90a44fba4afe38f26390e7f/Untitled.png",
     "Attachments/9 4 Index Operator Working with the Characters of  704131a9a90a44fba4afe38f26390e7f",
     "Attachments/7 6 String formatting (again) e018b6435f64487e9e2511d47619c4d1/Untitled.png",
@@ -184,16 +263,6 @@
     "Attachments/7 4 Splitting and joining strings 6b5599426c074effa781683055e5a14f",
     "Attachments/7 3 String methods c44b63d484c1424390ad537959e2d9b1",
     "Attachments/7 3 Precedence of Operators d0b2e5ba7f8c4e70bb2e0ccc801ab79a",
-    "Attachments/7 2 Advanced string formatting 4fff16f087344dec94e84b8609e47232",
-    "Attachments/7 1 String Slicing 2b7a618ef2934f778602babfca7547dc",
-    "Attachments/6 17 Engineering examples f86715f48f014d0382bfa0bc19b7ce66",
-    "Attachments/6 16 Help! Using Docstrings to documents functions 96c42499fe72484ab430715555eb8865",
-    "ZyBooks Python/Chapter 3/3 4 Set Basics 898ee7044c6d4740b127c45683f8c3db.md",
-    "ZyBooks Python/Chapter 3/3 3 Tuple Basics bddb3e033d524704a3b5fea4fe071d46.md",
-    "ZyBooks Python/Chapter 3/3 2 List basics 60ad97f8fd994a0f99f3f5540a43d57d.md",
-    "ZyBooks Python/Chapter 3/3 1 String Basics ec69126238df4f41a72b1f3d1246bcaa.md",
-    "ZyBooks Python/Chapter 3/3 10 String Formatting 33d71cc6bb354208b53ca5328ceb1b60.md",
-    "ZyBooks Python/Chapter 3/3 8 Type Conversions 06c6734ad8f44d829ec96eb457ff644d.md",
-    "ZyBooks Python/Chapter 3/3 6 Common Data Types Summary cb39fc873e274e28aff91225ad42462c.md"
+    "Attachments/7 2 Advanced string formatting 4fff16f087344dec94e84b8609e47232"
   ]
 }
