@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Python/ZyBooks Python/Chapter 4/4.8 Comparing data types and common errors.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Python/ZyBooks Python/Chapter 4/4.8 Comparing data types and common errors.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Python/ZyBooks Python/Chapter 4/4.8 Comparing data types and common errors.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Python/ZyBooks Python/Chapter 4/4.8 Comparing data types and common errors.md"
+                "file": "README.md"
               }
             }
           }
@@ -170,6 +170,8 @@
   },
   "active": "78ea00b9f5b30dc2",
   "lastOpenFiles": [
+    "docs/index.md",
+    "docs/Python/ZyBooks Python/Chapter 4/4.8 Comparing data types and common errors.md",
     "docs/Python/ZyBooks Python/Chapter 4/4.7 Detecting multiple features with branches.md",
     "docs/Python/ZyBooks Python/Chapter 4/4.5 Detecting ranges using logical operators.md",
     "docs/Python/ZyBooks Python/Chapter 4/4.4 Detecting ranges with branches.md",
@@ -194,8 +196,6 @@
     "docs/Python/RuneStone Python/Chapter 8 RuneStone.md",
     "docs/Python/RuneStone Python/Chapter 2 RuneStone.md",
     "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/Chapter 17 Runestone.md",
-    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/17.4 User Defined Classes.md",
-    "docs/Python/RuneStone Python/Chapter 11 Files/Chapter 11 RuneStone.md",
     "docs/assets/Pasted image 20230519155852.png",
     "docs/assets/Pasted image 20230519154733.png",
     "docs/assets/2.8.png",
