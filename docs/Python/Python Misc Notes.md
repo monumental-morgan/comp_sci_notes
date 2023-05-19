@@ -1,4 +1,4 @@
-# Quick Notes: Python
+# Python Misc Notes
 
 [Quick Note](https://www.notion.so/Quick-Note-13a48712ca784c2cbfec49c159f15c4d) 
 

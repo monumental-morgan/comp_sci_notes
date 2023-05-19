@@ -1,4 +1,7 @@
 # The Python Wiki
+- [[Python Misc Notes]]
+- [[Python Style Guide]]
+- [[Regular Expressions]]
 ## ZyBooks
 - [[Chapter 2 ZyBook|Chapter 2: Basics]]
 - [[Chapter 3 ZyBook|Chapter 3: String Formatting]]
