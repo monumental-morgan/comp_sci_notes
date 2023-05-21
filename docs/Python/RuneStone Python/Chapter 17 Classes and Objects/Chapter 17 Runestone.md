@@ -1,7 +1,8 @@
 # Chapter 17: Classes and Objects
 
 - [[17.4 User Defined Classes]]
-
+- [[17.5 17.6 Constructer and Methods]]
+- [[17.7 17.8 17.9 Objects, Strings, Return Values]]
 # 17.1 Object-oriented programming (OOP)
 
 - Main [programming paradigm](http://en.wikipedia.org/wiki/Programming_paradigm) used in the creation of new software.
@@ -32,26 +33,3 @@
 - With turtle objects, each turtle has a state consisting of the turtle’s position, its color, its heading, etc.
 - Each turtle also has the ability to go forward, backward, or turn right or left.
 
-# 17.5 Improving our Constructor
-
-- Our constructor so far can only create points at location `(0,0)`
-- To create a point at position (7, 6) requires that we provide some additional capability for the user to pass information to the constructor.
-- Since constructors are simply specially named functions, we can use parameters (as we’ve seen before) to provide the specific information.
-
-```python
-class Point:
-
-	""" Point class for representing and manipulating x,y coordinates. """
-
-	def __init__(self, initX, initY):
-
-    	""" Create a new point at the given coordinates. """
-
-	    self.x = initX
-
-		self.y = initY
-
-p = Point(7, 6)
-```
-
-- Now when we create new points, we supply the x and y coordinates as parameters. When the point is created, the values of﻿ `initX` and ﻿`initY` are assigned to the state of the object.

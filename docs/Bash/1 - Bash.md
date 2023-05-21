@@ -13,7 +13,7 @@ Consider, that `bash` is also a command. With `man bash` you can see that there 
 or `bash` without a switch, opens a bash shell that you can use and `exit` afterwards.
 
 
-
+[Linux Cheatsheet](https://ryanstutorials.net/linuxtutorial/cheatsheet.php)
 
 [[File Manipulation]]
 

@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4ab1f003891f5a6c",
+        "id": "4618fe60831db73d",
         "type": "tabs",
         "children": [
           {
-            "id": "4acd80a38b0e2e8d",
+            "id": "3a3909be515593fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Python/ZyBooks Python/Chapter 2/2.2 Identifiers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78ea00b9f5b30dc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
+                "file": "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 249.5
   },
   "right": {
     "id": "1cbecd6ce28b6bc0",
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md"
               }
             }
           }
@@ -168,34 +155,35 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "78ea00b9f5b30dc2",
+  "active": "3a3909be515593fe",
   "lastOpenFiles": [
-    "docs/index.md",
-    "docs/Python/ZyBooks Python/Chapter 4/4.8 Comparing data types and common errors.md",
-    "docs/Python/ZyBooks Python/Chapter 4/4.7 Detecting multiple features with branches.md",
-    "docs/Python/ZyBooks Python/Chapter 4/4.5 Detecting ranges using logical operators.md",
-    "docs/Python/ZyBooks Python/Chapter 4/4.4 Detecting ranges with branches.md",
-    "docs/Python/ZyBooks Python/Chapter 4/4.2 Detecting equal values with branches.md",
-    "docs/Python/ZyBooks Python/Chapter 3/Chapter 3 ZyBook.md",
-    "docs/Python/ZyBooks Python/Chapter 3/3.10 String Formatting.md",
-    "docs/Python/ZyBooks Python/Chapter 3/3.8 Type Conversions.md",
-    "docs/Python/ZyBooks Python/Chapter 3/3.6 Common Data Types Summary.md",
-    "docs/Python/ZyBooks Python/Chapter 3/3.5 Dictionary Basics.md",
-    "docs/Python/ZyBooks Python/Chapter 3/3.4 Set Basics.md",
-    "docs/Python/ZyBooks Python/Chapter 3/3.3 Tuple Basics.md",
-    "docs/Python/ZyBooks Python/Chapter 3/3.2 List basics.md",
-    "docs/Python/ZyBooks Python/Chapter 3/3.1 String Basics.md",
-    "docs/Python/ZyBooks Python/Chapter 2/Chapter 2 ZyBook.md",
-    "docs/Python/ZyBooks Python/Chapter 2/2.10 Representing Text.md",
-    "docs/Python/ZyBooks Python/Chapter 2/2.8 2.9 Module Basics.md",
-    "docs/Python/ZyBooks Python/Chapter 2/2.5 2.6 2.7 Expressions.md",
-    "docs/Python/ZyBooks Python/Chapter 2/2.4 Numeric Types Floating-Point.md",
-    "docs/Python/ZyBooks Python/Chapter 2/2.3 Objects.md",
-    "docs/Python/ZyBooks Python/Chapter 2/2.2 Identifiers.md",
-    "docs/Python/RuneStone Python/Chapter 10 RuneStone.md",
-    "docs/Python/RuneStone Python/Chapter 8 RuneStone.md",
-    "docs/Python/RuneStone Python/Chapter 2 RuneStone.md",
+    "11.7 11.8.md",
+    "docs/Python/RuneStone Python/Chapter 19 Runestone.md",
+    "docs/Python/1 - Python.md",
+    "Chapter 19 Runestone].md",
+    "docs/Python/Python Misc Notes.md",
+    "docs/Python/Python Style Guide.md",
+    "docs/Python/Regular Expressions.md",
+    "docs/Web Development/1 - Web Development.md",
+    "docs/Python/RuneStone Python/Chapter 19",
     "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/Chapter 17 Runestone.md",
+    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/17.4 User Defined Classes.md",
+    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/17.5 17.6 Constructer and Methods.md",
+    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/17.7 17.8 17.9 Objects, Strings, Return Values.md",
+    "docs/Python/RuneStone Python/Chapter 11 Files/Chapter 11 RuneStone.md",
+    "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
+    "docs/Python/RuneStone Python/Chapter 11 Files/11.6 Writing Text Files.md",
+    "docs/Python/RuneStone Python/Chapter 11 Files/11.5 Alternative File Reading Methods.md",
+    "Untitled.md",
+    "docs/Python/RuneStone Python/Chapter 11 Files/11.1 11.2 Locating and Working with Files.md",
+    "docs/Python/RuneStone Python/Chapter 11 Files/11.3 11.4 Reading a File & Iterating over lines.md",
+    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/Untitled.md",
+    "docs/index.md",
+    "docs/Resources and Notes/1 - Resources and Notes.md",
+    "docs/Bash/Vi Text Editor.md",
+    "docs/Bash/1 - Bash.md",
+    "docs/Bash/Scripting.md",
+    "docs/Bash/Permissions.md",
     "docs/assets/Pasted image 20230519155852.png",
     "docs/assets/Pasted image 20230519154733.png",
     "docs/assets/2.8.png",
@@ -214,7 +202,6 @@
     "Attachments/9 4 Index Operator Working with the Characters of  704131a9a90a44fba4afe38f26390e7f",
     "Attachments/7 6 String formatting (again) e018b6435f64487e9e2511d47619c4d1",
     "Attachments/7 5 String formatting using dictionaries 8e73e44fe37a4bb3808d13a20afe2c8b",
-    "Attachments/7 4 Splitting and joining strings 6b5599426c074effa781683055e5a14f",
-    "Attachments/7 3 String methods c44b63d484c1424390ad537959e2d9b1"
+    "Attachments/7 4 Splitting and joining strings 6b5599426c074effa781683055e5a14f"
   ]
 }

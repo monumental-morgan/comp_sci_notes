@@ -1,5 +1,7 @@
-### Vi Text Editor (command line)
-
+## Vi Text Editor (command line)
+### Note: Vim is based off of Vi, so there are many similarities
+- VIM: `vimtutor` A long tutorial on vim command line text editor
+---
 -   Two modes
     -   Insert (input): input or enter content into the file.
     -   Edit: move around the file, delete, copy, etc
