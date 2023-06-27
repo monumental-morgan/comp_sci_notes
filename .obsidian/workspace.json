@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
-                "mode": "source",
+                "file": "docs/Web Development/The Odin Project/2.3 HTML - Working With Text.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 258.5
   },
   "right": {
     "id": "1cbecd6ce28b6bc0",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
+                "file": "docs/Web Development/The Odin Project/2.3 HTML - Working With Text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
+                "file": "docs/Web Development/The Odin Project/2.3 HTML - Working With Text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md"
+                "file": "docs/Web Development/The Odin Project/2.3 HTML - Working With Text.md"
               }
             }
           }
@@ -157,33 +157,34 @@
   },
   "active": "3a3909be515593fe",
   "lastOpenFiles": [
+    "docs/Web Development/The Odin Project/2.2 HTML Boilerplate.md",
+    "docs/Web Development/The Odin Project/1.1 Command Line Basics.md",
+    "docs/Bash/File Manipulation.md",
+    "docs/Resources and Notes/Repo Naming Conventions.md",
+    "docs/Resources and Notes/Command Line Tricks.md",
+    "docs/Web Development/The Odin Project/2.5 Links & Images.md",
+    "docs/Web Development/The Odin Project/2.4 Lists.md",
+    "docs/Web Development/The Odin Project/2.3 HTML - Working With Text.md",
+    "docs/Web Development/1 - Web Development.md",
+    "docs/index.md",
+    "docs/Python/New Python/Math Module.md",
+    "docs/Python/New Python/5.5 Creating Modules.md",
+    "docs/Python/New Python/5.4 Random Module.md",
+    "docs/Python/New Python/3.1 String Basics.md",
+    "docs/Python/New Python/2.8 2.9 Module Basics.md",
+    "docs/Python/New Python/2.5 2.6 2.7 Expressions.md",
+    "docs/Python/New Python/2.2 Identifiers.md",
+    "docs/Python/New Python",
+    "README.md",
+    "docs/Resources and Notes/1 - Resources and Notes.md",
+    "docs/Python/RuneStone Python/Chapter 5 Python Modules/5.3 Math Module.md",
+    "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
     "11.7 11.8.md",
     "docs/Python/RuneStone Python/Chapter 19 Runestone.md",
     "docs/Python/1 - Python.md",
     "Chapter 19 Runestone].md",
     "docs/Python/Python Misc Notes.md",
-    "docs/Python/Python Style Guide.md",
-    "docs/Python/Regular Expressions.md",
-    "docs/Web Development/1 - Web Development.md",
     "docs/Python/RuneStone Python/Chapter 19",
-    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/Chapter 17 Runestone.md",
-    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/17.4 User Defined Classes.md",
-    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/17.5 17.6 Constructer and Methods.md",
-    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/17.7 17.8 17.9 Objects, Strings, Return Values.md",
-    "docs/Python/RuneStone Python/Chapter 11 Files/Chapter 11 RuneStone.md",
-    "docs/Python/RuneStone Python/Chapter 11 Files/11.7 11.8 With Statements and Web Fetching.md",
-    "docs/Python/RuneStone Python/Chapter 11 Files/11.6 Writing Text Files.md",
-    "docs/Python/RuneStone Python/Chapter 11 Files/11.5 Alternative File Reading Methods.md",
-    "Untitled.md",
-    "docs/Python/RuneStone Python/Chapter 11 Files/11.1 11.2 Locating and Working with Files.md",
-    "docs/Python/RuneStone Python/Chapter 11 Files/11.3 11.4 Reading a File & Iterating over lines.md",
-    "docs/Python/RuneStone Python/Chapter 17 Classes and Objects/Untitled.md",
-    "docs/index.md",
-    "docs/Resources and Notes/1 - Resources and Notes.md",
-    "docs/Bash/Vi Text Editor.md",
-    "docs/Bash/1 - Bash.md",
-    "docs/Bash/Scripting.md",
-    "docs/Bash/Permissions.md",
     "docs/assets/Pasted image 20230519155852.png",
     "docs/assets/Pasted image 20230519154733.png",
     "docs/assets/2.8.png",
@@ -201,7 +202,6 @@
     "The Odin Project",
     "Attachments/9 4 Index Operator Working with the Characters of  704131a9a90a44fba4afe38f26390e7f",
     "Attachments/7 6 String formatting (again) e018b6435f64487e9e2511d47619c4d1",
-    "Attachments/7 5 String formatting using dictionaries 8e73e44fe37a4bb3808d13a20afe2c8b",
-    "Attachments/7 4 Splitting and joining strings 6b5599426c074effa781683055e5a14f"
+    "Attachments/7 5 String formatting using dictionaries 8e73e44fe37a4bb3808d13a20afe2c8b"
   ]
 }
